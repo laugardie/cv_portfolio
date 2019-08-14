@@ -30,6 +30,10 @@ body {
   display: flex;
 }
 
+#menu li {
+  list-style-type: none;
+}
+
 #menu li a {
   font-size: 20px;
   font-weight: 600;
@@ -130,24 +134,19 @@ body {
   position: absolute;
   display: flex;
   justify-content: center;
+  background: rgb(210,160,164,0.8);
+  transition: opacity .2s linear;
   opacity: 0;
 }
 
-.hover-color:hover .read-more{
-  opacity: 1;
-  transition: opacity .2s linear;
-}
-
 .hover-color:hover {
-  background: rgb(210,160,164,0.8);
   opacity: 1;
-  transition: opacity .2s linear;
 }
 
 .read-more {
   color: white;
   width: 258px;
-  border: solid 1.5px #ffffff;
+  border: solid 1.5px white;
   text-decoration: none;
   text-align: center;
   align-self: center;

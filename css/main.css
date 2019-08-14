@@ -1,6 +1,7 @@
 body {
   font-family: OpenSans, sans-serif;
   font-size: 22px;
+  font-weight: 300;
   color: rgba(38, 38, 38, 0.8);
 }
 
@@ -39,8 +40,6 @@ body {
 
 .active {
   color: #cba2a5;
-  width: 82px;
-  height: 2px;
   border-bottom: solid 2px #cba2a5;
 }
 
@@ -70,12 +69,12 @@ body {
   font-size: 20px;
 }
 
-.link-decoration {
-  text-decoration: underline;
-  text-decoration-color: #cba2a5;
+.hero p a {
+  text-decoration: none;
+  border-bottom: solid 2px #cba2a5;
 }
 
-.link-decoration:hover {
+.hero p span:hover {
   color: #e7c9cb;
 }
 
@@ -88,6 +87,11 @@ body {
   grid-template-columns: repeat(2, 470px);
   grid-template-rows: repeat(2, auto);
   justify-content: center;
+}
+
+.item{
+  position: relative;
+
 }
 
 .item h2 {
@@ -106,6 +110,7 @@ body {
   height: 329px;
   object-fit: cover;
   object-position: top;
+
 }
 
 .tag {
@@ -113,6 +118,20 @@ body {
   font-weight: 600;
   color: #d2a0a4;
   margin-top: 18px;
+}
+
+.item{
+  position: relative;
+}
+
+.hover-color {
+  width: 470px;
+  height: 329px;
+  position: absolute;
+}
+
+.hover-color:hover {
+  background: rgb(210,160,164,0.8);
 }
 
 /* Footer */
@@ -128,8 +147,4 @@ body {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 16px;
-}
-
-#footer p {
-  font-weight: 400;
 }

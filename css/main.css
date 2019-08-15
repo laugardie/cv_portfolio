@@ -43,7 +43,7 @@ body {
 }
 
 .active {
-  color: #cba2a5;
+  color: main-color;
   border-bottom: solid 2px #cba2a5;
 }
 

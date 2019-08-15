@@ -22,3 +22,7 @@
 #about i, a {
   color:  rgba(38, 38, 38, 0.8);
 }
+
+#about i {
+  margin-right: 5px;
+}

@@ -1,0 +1,108 @@
+/*Project view*/
+
+.project-view {  
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.project-view h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.project-view img {
+  max-height: 600px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 60px;
+  margin-top: 15px;
+}
+
+.project-view h2 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.project-view p {
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.project-view h4 {
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: #d2a0a4;
+}
+
+/*other projects suggested*/
+.other-projects {
+  margin-top: 120px;
+}
+
+.other-projects h5 {
+  font-weight: 600;
+}
+
+.suggested {
+  display: grid;
+  margin-top: 50px;
+  grid-template: 222.23px / repeat(3,1fr);
+}
+
+.suggested > div:not(:last-child) {
+  margin-right: 12px;
+}
+
+.hover-color-small {
+  display: flex;
+  justify-content: center;
+  background: rgb(210,160,164,0.8);
+  transition: opacity .2s linear;
+  opacity: 0;
+}
+
+.hover-color-small:hover {
+  opacity: 1;
+}
+.suggested-card {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template: 1fr / 1fr;
+}
+
+#image-card1{
+  background-image: url(../img/big_shot_3_4x.png)
+}
+#image-card2{
+  background-image: url(../img/big_shot_3_4x.png)
+}
+#image-card3{
+  background-image: url(../img/big_shot_3_4x.png)
+}
+
+.read-more-small {
+  color: white;
+  border: solid 1.5px white;
+  text-decoration: none;
+  text-align: center;
+  align-self: center;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.read-more-small:hover {
+  color: #d2a0a4;
+  border: solid 1px white;
+  background-color: white;
+}
+
+

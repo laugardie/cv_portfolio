@@ -19,6 +19,6 @@
   font-weight: 600;
 }
 
-#about i {
+#about i, a {
   color:  rgba(38, 38, 38, 0.8);
 }

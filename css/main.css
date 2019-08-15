@@ -74,8 +74,7 @@ body {
 }
 
 .hero p a {
-  text-decoration: none;
-  border-bottom: solid 2px #cba2a5;
+  text-decoration-color: #cba2a5;
 }
 
 .hero p span:hover {

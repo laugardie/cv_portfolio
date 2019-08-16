@@ -26,3 +26,56 @@
 #about i {
   margin-right: 5px;
 }
+
+/* Responsive */
+
+/*tablet*/
+
+@media screen and (max-width: 620px) {
+
+  header {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  #about {
+    max-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  header {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  #about {
+    max-width: 450px;
+  }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 420px) {
+  header {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  #about {
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  #about {
+    max-width: 300px;
+  }
+
+}

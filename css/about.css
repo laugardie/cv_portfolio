@@ -27,6 +27,14 @@
   margin-right: 5px;
 }
 
+.curriculumLink {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.curriculumLink:hover {
+  color: #d2a0a4;
+}
 /* Responsive */
 
 /*tablet*/

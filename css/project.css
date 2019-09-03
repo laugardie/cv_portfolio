@@ -104,3 +104,104 @@
   border: solid 1px white;
   background-color: white;
 }
+
+/* Responsive */
+
+/*tablet*/
+
+@media screen and (max-width: 994px) {
+  header {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  .project-view {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  .other-projects {
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  #footer {
+    max-width: 850px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  header {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  .project-view {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  .other-projects {
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  #footer {
+    max-width: 750px;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  header {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .project-view {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .other-projects {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  #footer {
+    max-width: 600px;
+    margin-top: 100px;
+  }
+
+  #footer div h4, p {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 576px) {
+    header {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .project-view {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .suggested {
+      margin-top: 50px;
+      grid-template: repeat(3, 222.23px) / 1fr;
+      grid-gap: 20px;
+      
+    }
+   
+    #footer {
+      max-width: 500px;
+      margin-top: 100px;
+    }
+
+}
+}

@@ -145,7 +145,7 @@ body {
   position: absolute;
   display: flex;
   justify-content: center;
-  background: rgb(210,160,164,0.8);
+  background: rgb(210,160,164,0.20);
   transition: opacity .2s linear;
   opacity: 0;
   max-width: 100%;
@@ -155,21 +155,13 @@ body {
   opacity: 1;
 }
 
-.read-more {
-  color: white;
-  width: 258px;
-  border: solid 1.5px white;
+.no-link {
   text-decoration: none;
-  text-align: center;
-  align-self: center;
-  padding: 20px 60px;
-  box-sizing: border-box;
+  color: currentColor;
 }
 
-.read-more:hover {
-  color: #d2a0a4;
-  border: solid 1px white;
-  background-color: white;
+.no-link:hover {
+  text-decoration: underline;
 }
 
 #project1{

@@ -88,23 +88,6 @@
   background-image: url(../img/big_shot_3_4x.png)
 }
 
-.read-more-small {
-  color: white;
-  border: solid 1.5px white;
-  text-decoration: none;
-  text-align: center;
-  align-self: center;
-  padding: 20px 40px;
-  box-sizing: border-box;
-  font-size: 18px;
-}
-
-.read-more-small:hover {
-  color: #d2a0a4;
-  border: solid 1px white;
-  background-color: white;
-}
-
 /* Responsive */
 
 /*tablet*/

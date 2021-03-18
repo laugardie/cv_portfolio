@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/project.css" />
+    <script src="./js/main.js"></script>
+    <title>Laura Garcia Dieguez</title>
+  </head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J7JSKSS7Q5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J7JSKSS7Q5');
+</script>
+  <body>
+    <header>
+      <nav class="main-navigation container">
+        <div id="logo">
+          <a href="./index.html"><img src="img/laura-logo.svg" alt="Laura's logo"></a>
+        </div>
+        <ul id="menu">
+          <li><a href="./index.html">Portfolio</a></li>
+          <li><a href="./about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="project-view container">
+      <h3 class="tag">Travel app</h3>
+      <h1>Goeat</h1>
+      <img src="./img/goeat hero.png" alt="goeat"/>
+      <p>Goeat was my final project for UX/UI Bootcamp at Ironhack. This project was selected as finalist among all the students' projects and was presented during Madrid's Hackshow. The project duration was 10 days, 5 days for UX and the other 5 for UI.</p>
+      <h2 class="section">The Problem</h2>
+      <span class="quote">There's a cultural and linguistic gap that makes harder discovering the gastronomy of a country</span>
+      <p>Tourism is one of the world biggest economic drivers. During 2018 it grow 6%, reaching 1400 million travelers worldwide, according to the UNWTO <span class="italics">United Nations World Tourism Organization</span>. Within this sector, gastronomic tourism is a growing market. Gastronomy is one of the main reasons tourists chose their destinations, and it represents 1/3 of the total travel costs.</p>
+      <p>However, we detect it exists a linguistic and cultural barrier when discovering local cuisine, making it harder for tourist to enjoy the authenticity of the places they visit through food.</p>
+      <p>With this project we'll identify the barriers tourist experience, with the goal of improving the experience.</p>
+      <h2 class="section">The solution</h2>
+      <p>The solution is <span class="bold">Goeat</span>. It's an application that will help you easily discover your destination's tradicional dishes, and suggest nearby restaurant where to try them out.</p>
+      <img src="./img/goeat app mockups.png" alt="goeat"/>
+      <h4>Empathize</h4>
+      <h2>Surveys and Interviews</h2>
+       <p>I interviewed 5 people and created a survey with 101 responses in order to understand this problem better.</p>
+      <span class="quote">"When you travel to a place with a quite different culture, you have no idea what to try" - Irene</span>
+      <p>The following are the key points taken from surveys and interviews:</p>
+      <img src="./img/data goeat.png" alt="goeat"/>
+      <img src="./img/goeat data 2.png" alt="goeat"/>
+      <h4>Define</h4>
+      <h2>User Persona</h2>
+      <p>I created my user persona, Irene, synthesizing all the information gathered in the surveys and interviews.</p>
+      <img src="./img/Irene goeat.jpeg" alt="user persona"/>
+      <span class="quote">"I want to try authentic local things" - Irene</span>
+      <p>Irene is 31 years old, she likes to travel and discover new cultures. She love to try authentic local things, because it helps her know the culture both intellectually and from the senses. She doesn't like to find out she missed something once she's back home.</p>
+      <h2 class="section">User Journey</h2>
+      <p>I used the tool User Journey to emphasize with Irene during a trip.</p>
+      <img src="./img/irene goeat user journey.png" alt="user journey"/>
+      <p>Thanks to this tool we can detect Irene's<span class="bold italics">pain points</span>:</p>
+      <ol class="numberlist">
+        <li><span class="bold">She looses time </span> looking for tradicional food in the destination, and it's hard to choose where the restaurant to go to.</li>
+        <li>Once she arrives at the restaurant, <span class="bold">the menu is not in her language</span> and she can't understand it.</li>
+        <li><span class="bold">She doesn't know the food ingredients nor the dishes, </span> so she doesn't know what to order and ends up ordering without knowing what she'll get.</li>
+        <li><span class="bold">She gets food with an ingredient she doesn't like and </span> gets frustrated because she couldn't enjoy the experience.</li>
+      </ol>
+      <h4>Ideate</h4>
+      <h2>Brainstorming</h2>
+      <p>Once the design opportunities were detected, I started thinking about the main app features.</p>
+      <span class="quote"><span class="bold">HMW</span>: How might we help Irene enjoy her destination's gastronomy during her trip?</span>
+      <p>After two <span class="bold">Brainstorming rounds</span>, I organized the ideas in a <span class="bold">MOSCOW</span> to decide what features would be in my <span class="bold">MVP</span>.</p>
+      <ul class="bulletpoints">
+        <li>Geo-localization to suggest tradicional dishes from the city the user's in.</li>
+        <li>Suggest nearby restaurants to try the selected dish.</li>
+        <li>Street food recommendations from other travelers.</li>
+        <li>Dishes names audio pronunciation.</li>
+        <li>Interesting information and curiosities about traditional dishes.</li>
+        <li>Menu translations.</li>
+        <li>Ingredients and allergen information.</li>
+      </ul>
+      <h2 class="section">Card Sorting & Site Map</h2>
+      <p>Taking into account the MVP features, I did a card sorting with 10 people that helped me design the app's site map.</p>
+      <img src="./img/site map goeat.jpeg" alt="sitemap"/>
+      <h2>User Flow</h2>
+      <p>I designed the following user flow before designing the prototype to have a clear view of the user actions. I then designed those screens in low fidelity.</p>
+      <img src="./img/user flow goeat.jpeg" alt="user flow"/>
+      <h4>Prototype and Iterate</h4>
+      <h2>Low Fidelity</h2>
+      <p>Keeping in mind the architecture of the information and the tasks shown in the user flow, I started working on the first Low Fidelity paper version of the app.</p>
+      <img src="./img/low fidelity goeat.jpeg" alt="low fidelity"/>
+      <p>I performed a usability test with 5 people. The main pain points were:</p>
+      <ul class="bulletpoints">
+          <li>80% of the users found weird having to search dishes from a city when the geo-localization information was already giving some data.</li>
+          <li>60% of the users would like to see restaurant's dishes right in the map view.</li>
+          <li>A60% of the users found hard to choose a restaurant to get the direction instructions. The "go to place" button wasn't clear.</li>
+      </ul>
+      <h2 class="section">Mid Fidelity</h2>
+      <p>With the learnings from the Low Fidelity, I started iterating in the Mid Fidelity using Sketch.</p>
+      <img src="./img/mid fidelity goeat.png" alt="mid fidelity"/>
+      <p>Once the Mid Fidelity was finished on Sketch, I used inVision to do a second testing round with other 5 people.</p>
+      <ul class="bulletpoints">
+          <li>Missing a screen where the user accepts geo-localization.</li>
+          <li>Some typography was too small</li>
+          <li>Missing allergen information on the restaurant dish view.</li>
+          <li>100% of the users wanted a shortcut to their points card from the tab bar.</li>
+      </ul>
+      <h2 class="section">High Fidelity</h2>
+      <p>I developed the High Fidelity applying the changes discovered during the usability test.</p>
+      <img src="./img/high fidelity goeat.png" alt="high fidelity"/>
+      <h4>Branding</h4>
+      <h2>Moodboard</h2>
+      <p> developed the app's branding using different resources. The first one was a moodboard, where i added pictures that represented my brand attributes: authentic, inspiring and adventurer.</p>
+      <img src="./img/moodboard goeat.png" alt="moodboard"/>
+      <p>I did a <span class="italics">Desirability Test</span> with 5 users and could confirm that the moodboard represented the brand's attributes.</p>
+      <img src="./img/attributes goeat.png" alt="attributes"/>
+      <h2>Style guide</h2>
+      <p>This document gathers all the guidelines and visual references for the design to be consistent and align with the brand's vision.</p>
+      <p><span class="bold">Typography</span>: <span class="bold">Lato</span> is a <span class="italics">Sans Serif</span> created by <span class="bold">Lukasz Dziedzic</span> Lukasz Dziedzic with great legibility. The semi-rounded details in the characters provide Lato a warm, formal but friendly feeling.</p>
+      <img class="smaller" src="./img/typography goeat.png" alt="typography"/>
+      <p><span class="bold">Colors</span>:  Goeat's main colors are red –<span class="italics">Amaranth</span>, deep blue -<span class="italics">Firefly</span> and grey -<span class="italics">Seashell</span>. Red is the primary color.</p>
+      <img class="smaller" src="./img/colores goeat.png" alt="colors"/>
+      <p class="bold">Components:</p>
+      <img class="smaller" src="./img/componentes goeat.png" alt="componentes"/>
+      <p class="bold">Iconography:</p>
+      <img class="smaller" src="./img/iconografia goeat.png" alt="iconografia"/>
+      <p class="bold">UI Elements:</p>
+      <img class="smaller" src="./img/ui elements goeat.png" alt="UI Elements"/>
+      <p class="bold">Grid and Layout:</p>
+      <img class="smaller" src="./img/grid and layout goeat.png" alt="grid y layout"/>
+      <h2>Animating with Flinto</h2>
+      <p>Finally, I animated the prototype with Flinto.</p>
+      <p>In this video we can see how a user sings in, accept geo-localization, choses a tradicional dish from Bangkok and selects one of the nearby restaurants.</p>
+      <img class="gif" src="./img/Goeat flinto.gif" alt="goeat flinto"/>
+      <p>In this second video, the user has arrived at the restaurant and receives a notification to access the restaurant's menu. The user looks at the menu and choses one of the desserts where they can see more information about it.</p>
+      <img class="gif" src="./img/goeat flinto 2.gif" alt="goeat flinto"/>
+      <p>In this third video, the user enters the app again, this time to use the discount points. They can also rate the experience and save the favorites in their profile.</p>
+      <img class="gif" src="./img/goeat flinto 3.gif" alt="goeat flinto"/>
+      <h2>Landing Page</h2>
+      <p>Once the prototype was finished, I developed the product landing page where the users can download the app, see the features and comments from other users.</p>
+      <img class="landing" src="./img/landing goeat.gif" alt="goeat landing">
+      <h2>Next steps</h2>
+      <p>Some features I'd like to test are:</p>
+      <ul class="bulletpoints">
+          <li>Try to find a different monetization strategy.</li>
+          <li>Being able to follow friends.</li>
+          <li>Gastronomy tours with locals.</li>
+          <li>Food festivals information.</li>
+          <li>Payments in the app.</li>
+      </ul>
+    </div>
+    <div class="other-projects container">
+        <h5>You may also like</h5>
+        <div class="suggested">
+          <div class="wrapper-img-hover suggested-card">
+              <a class="hover-color-small" href="./projects-portfolio.html">
+              </a>
+              <img src="img/portfolio.png" alt="portfolio">
+          </div>
+          <div class="wrapper-img-hover suggested-card">
+              <a class="hover-color-small" href="./projects-pausa.html">
+              </a>
+              <img src="img/pausaappmain.png" alt="pausa app">
+          </div>
+          <div class="wrapper-img-hover suggested-card">
+              <a class="hover-color-small" href="./project-whatsapp.html">
+              </a>
+              <img src="img/whatsappappmai.png" alt="whatsapp">
+          </div>
+        </div>
+      </div>
+      <footer id="footer" class="container">
+        <div>
+          <h4>Product Designer</h4>
+          <p>Laura García Diéguez</p>
+        </div>
+        <div>
+          <h4>Email</h4>
+          <p>laugardie89@gmail.com</p>
+        </div>
+        <div>
+          <h4>Location</h4>
+          <p>Sevilla</p>
+        </div>
+      </footer>
+    </body>
+  </html>

@@ -24,8 +24,8 @@ body {
 }
 
 #logo img  {
-  width: 130px;
   height: 130px;
+  width: auto;
   opacity: 0.9;
 }
 
@@ -105,11 +105,6 @@ body {
   grid-template-rows: repeat(2, auto);
 }
 
-.item{
-  position: relative;
-
-}
-
 .item h2 {
   font-size: 24px;
   font-weight: 700;
@@ -123,7 +118,7 @@ body {
 
 .item img {
   width: 100%;
-  height: 329px;
+  height: auto;
   object-fit: cover;
   object-position: top;
 }
@@ -135,33 +130,25 @@ body {
   margin-top: 18px;
 }
 
-.item{
+.wrapper-img-hover {
   position: relative;
 }
 
 .hover-color {
-  width: 470px;
-  height: 329px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   display: flex;
   justify-content: center;
-  background: rgb(210,160,164,0.30);
+  background: rgb(210,160,164,0.35);
   transition: opacity .2s linear;
   opacity: 0;
   max-width: 100%;
+  cursor: pointer;
 }
 
 .hover-color:hover {
   opacity: 1;
-}
-
-.no-link {
-  text-decoration: none;
-  color: currentColor;
-}
-
-.no-link:hover {
-  text-decoration: underline;
 }
 
 #project1{
@@ -183,11 +170,22 @@ body {
   margin-bottom: 16px;
 }
 
+.title {
+  text-decoration: none;
+  color: rgba(38, 38, 38, 0.8);
+}
+
+.title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+
 /* Responsive */
 
 /*tablet*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991.98px) {
   header {
     max-width: 700px;
     margin: 0 auto;
@@ -198,6 +196,10 @@ body {
     margin: 0 auto;
   }
 
+  .hero p {
+    margin-top: 30px;
+  }
+
   .projects-items {
     max-width:700px;
   }
@@ -205,9 +207,17 @@ body {
   #footer {
     max-width: 700px;
   }
+
+  p {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
 }
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 767.98px) {
   header {
     max-width: 600px;
     margin: 0 auto;
@@ -241,29 +251,47 @@ body {
   }
 
   #footer div h4, p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   #footer {
     max-width: 600px;
+    margin-top: 100px;
   }
 
+  #menu li a{
+    font-size: 16px;
+  }
 
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 575.98px) {
   header {
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
   }
 
   .hero {
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
   }
 
+  .hero h1{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .hero p {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .item p {
+    font-size: 18px;
+  }
+
   .projects-items {
-    max-width:500px;
+    max-width:400px;
     grid-gap: 56px 0px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, auto);
@@ -279,30 +307,34 @@ body {
 
   #footer div {
     text-align: center;
+    margin-bottom: 40px;
   }
 
   #footer h4 {
     line-height: 10px;
-    margin-top: 25px;
+    margin-top: 0px;
   }
 }
 
 /*mobile*/
 
 @media screen and (max-width: 420px) {
-
   .main-navigation {
     margin: 16px 0 26px 0;
   }
 
   header {
-    max-width: 360px;
+    max-width: 320px;
     margin: 0 auto;
     }
 
   #logo img {
-    width: 80px;
     height: 80px;
+    width: auto;
+  }
+
+  #menu li a {
+    font-size: 18px;
   }
 
   .hero {
@@ -311,13 +343,13 @@ body {
   }
 
   .hero h1 {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .hero p {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
   }
 
@@ -360,92 +392,59 @@ body {
 
   #footer h4 {
     line-height: 10px;
-    margin-top: 25px;
+    margin-top: 0px;
   }
 }
 
 @media screen and (max-width: 360px) {
-  .main-navigation {
-    margin: 16px 0 26px 0;
-  }
-
   header {
-    max-width: 320px;
+    max-width: 300px;
     margin: 0 auto;
-  }
-
-  #logo img {
-    width: 80px;
-    height: 80px;
   }
 
   .hero {
-    max-width: 320px;
+    max-width: 300px;
     margin: 0 auto;
   }
 
+  #menu li a {
+    font-size: 16px;
+  }
+
+  .main-navigation {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .projects-items {
+    max-width: 300px;
+  }
+
   .hero h1 {
-    font-size: 24px;
-    line-height: 34px;
-  }
-
-  .hero p {
-    margin-top: 10px;
     font-size: 18px;
-    line-height: 24px;
-  }
-
-  .projects-items {
-    max-width:360px;
-    grid-gap: 56px 0px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, auto);
-  }
-
-  .projects {
-    margin-top: 35px;
-  }
-
-  .projects-items {
-    max-width:320px;
-    grid-gap: 56px 0px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, auto);
-  }
-
-  .projects {
-    margin-top: 35px;
-  }
-
-  .item h2 {
-    font-size: 22px;
-    margin-top: 20px;
-  }
-
-  .item p {
-    font-size: 20px;
     line-height: 28px;
   }
 
+  .hero p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .item h2 {
+    font-size: 18px;
+  }
+
+  .item p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
   .tag {
-    margin-top: 12px;
+    font-size: 14px;
   }
 
   #footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 120px;
-    flex-direction: column;
-    align-items: center;
-}
-
-  #footer div {
-    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
   }
-
-  #footer h4 {
-    line-height: 10px;
-    margin-top: 30px;
-  }
-
 }

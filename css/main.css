@@ -145,7 +145,7 @@ body {
   position: absolute;
   display: flex;
   justify-content: center;
-  background: rgb(210,160,164,0.20);
+  background: rgb(210,160,164,0.30);
   transition: opacity .2s linear;
   opacity: 0;
   max-width: 100%;

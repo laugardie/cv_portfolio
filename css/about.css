@@ -35,6 +35,19 @@
 .curriculumLink:hover {
   color: #d2a0a4;
 }
+
+.bulletpoints {
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#about h2 {
+  font-size: 24px;
+  margin-top: 60px;
+  font-weight: 600;
+}
 /* Responsive */
 
 /*tablet*/

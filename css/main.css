@@ -178,7 +178,10 @@ body {
 .title:hover {
   cursor: pointer;
   text-decoration: underline;
+}
 
+#gif {
+  max-width: 500px;
 }
 
 /* Responsive */

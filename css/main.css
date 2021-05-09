@@ -47,11 +47,11 @@ body {
 
 .active {
   color: main-color;
-  border-bottom: solid 2px #cba2a5;
+  border-bottom: solid 2px #BF8A8E;
 }
 
 #menu li a:hover {
-  color: #cba2a5;
+  color: #BF8A8E;
 }
 
 
@@ -69,7 +69,7 @@ body {
 }
 
 .color-touch {
-  color: #cba2a5;
+  color: #BF8A8E;
 }
 
 .bold {
@@ -83,11 +83,11 @@ body {
 }
 
 .hero p a {
-  text-decoration-color: #cba2a5;
+  text-decoration-color: #BF8A8E;
 }
 
 .hero p span:hover {
-  color: #e7c9cb;
+  color: #BF8A8E;
 }
 
 /* Projects */
@@ -127,7 +127,7 @@ body {
 .tag {
   font-size: 18px;
   font-weight: 600;
-  color: #d2a0a4;
+  color: #BF8A8E;
   margin-top: 18px;
 }
 
